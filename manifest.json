@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "UES Video Downloader",
+  "description": "This extension will download lecture videos from Marmara University UES system",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "download-icon.png"
+  },
+
+  "permissions": [
+    "downloads",
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background.js", "download.js"]
+  }
+}
